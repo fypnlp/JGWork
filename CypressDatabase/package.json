@@ -1,0 +1,17 @@
+{
+  "name": "CypressDatabase",
+  "version": "1.0.0",
+  "description": "testing with SQL database",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-sql-server": "^1.0.0",
+    "cypress": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jacuqeline George",
+  "license": "ISC"
+}

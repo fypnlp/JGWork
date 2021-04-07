@@ -1,0 +1,118 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-07T10:13:14.795Z",
+    "end": "2021-01-07T10:13:41.507Z",
+    "duration": 26712,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f8e21ef5-869b-4e53-a212-15c447fd0e94",
+      "title": "",
+      "fullFile": "cypress/integration/BDD/ecommerce.feature",
+      "file": "cypress/integration/BDD/ecommerce.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "36ff3fe4-3587-4db4-887f-05d15ffe7252",
+          "title": "Add items to shopping cart and add delivery address",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Ecommerce Product delivery REGRESSION TEST",
+              "fullTitle": "Add items to shopping cart and add delivery address Ecommerce Product delivery REGRESSION TEST",
+              "timedOut": null,
+              "duration": 12372,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f9e4f519-4efc-473a-a9d9-3120af2010ba",
+              "parentUUID": "36ff3fe4-3587-4db4-887f-05d15ffe7252",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Ecommerce Product delivery SMOKE test",
+              "fullTitle": "Add items to shopping cart and add delivery address Ecommerce Product delivery SMOKE test",
+              "timedOut": null,
+              "duration": 9465,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "422830bd-4e09-408d-a7f5-f9950eea9aee",
+              "parentUUID": "36ff3fe4-3587-4db4-887f-05d15ffe7252",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f9e4f519-4efc-473a-a9d9-3120af2010ba",
+            "422830bd-4e09-408d-a7f5-f9950eea9aee"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21837,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

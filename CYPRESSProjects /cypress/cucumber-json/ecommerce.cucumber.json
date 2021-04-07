@@ -1,0 +1,123 @@
+[
+  {
+    "description": "    using cypress and BDD we are going to add a number of items to shopping basket and checkout ",
+    "keyword": "Feature",
+    "name": "Add items to shopping cart and add delivery address",
+    "line": 1,
+    "id": "add-items-to-shopping-cart-and-add-delivery-address",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "add-items-to-shopping-cart-and-add-delivery-address;ecommerce-product-delivery-regression-test",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Ecommerce Product delivery REGRESSION TEST",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the Ecommerce page",
+            "result": {
+              "status": "passed",
+              "duration": 3276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I add mobile phones to the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 3146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate the total price in cart",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I add my chosen delivery country and verify a thank you message",
+            "result": {
+              "status": "passed",
+              "duration": 5899000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-items-to-shopping-cart-and-add-delivery-address;ecommerce-product-delivery-smoke-test",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Ecommerce Product delivery SMOKE test",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the Ecommerce page",
+            "result": {
+              "status": "passed",
+              "duration": 2692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I add mobile phones to the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I validate the total price in cart",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I add my chosen delivery country and verify a thank you message",
+            "result": {
+              "status": "passed",
+              "duration": 5775000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

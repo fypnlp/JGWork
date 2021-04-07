@@ -1,0 +1,14 @@
+{
+    "db": {
+        "userName": "jcg",
+        "password": "George123",
+        "server": "jgdbdemo.database.windows.net",
+        "options": {
+            "database": "jacquelinedatabase",
+            "encrypt": true,
+            "rowCollectionOnRequestCompletion" : true
+        }
+    }
+
+
+}
