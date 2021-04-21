@@ -19,11 +19,11 @@ link: https://www.dropbox.com/s/p9s9055mi3lrfzx/BDD%20Test%20%20with%20Mocha%20a
 **Docker desktop for Cypress**
 This file contains an example of a simple automation test which can run on docker desktop.  Below I've also inlcluded commands to run tests using docker a terminal also as part of docker-container.yml file which can be used for CD/CI if required.
 
-Command to Run Docker Container
+**Command to Run Docker Container**
 
 docker-compose -f docker-compose.yml up
 
-Command to run docker in termainal
+**Command to run docker in termainal**
 
 docker run -it -v $PWD:/e2e -w /e2e cypress --entrypoint=cypress cypress/included:6.8.0 run
 
