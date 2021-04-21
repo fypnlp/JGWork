@@ -17,6 +17,7 @@ This is example BDD overlay (with Page Object + Mocha).
 link: https://www.dropbox.com/s/p9s9055mi3lrfzx/BDD%20Test%20%20with%20Mocha%20and%20Page%20Ojbect.mp4?dl=0
 
 **Docker desktop for Cypress**
+This file contains an example of a simple automation test which can run on docker desktop.  Below I've also inlcluded commands to run tests using docker a terminal also as part of docker-container.yml file which can be used for CD/CI if required.
 
 Command to Run Docker Container
 
