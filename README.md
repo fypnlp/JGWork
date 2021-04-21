@@ -2,7 +2,7 @@ Hi,
 
 This git repository contains examples of my various training projects.
 
-Cypress
+**Cypress Automation Framework**
 
 I uploaded my entire cypress course when I completed a number of years ago (that's the cypress projects part of the repository). 
 
@@ -16,12 +16,14 @@ This is example BDD overlay (with Page Object + Mocha).
 
 link: https://www.dropbox.com/s/p9s9055mi3lrfzx/BDD%20Test%20%20with%20Mocha%20and%20Page%20Ojbect.mp4?dl=0
 
-Docker desktop for Cypress
+**Docker desktop for Cypress**
 
-Command to Run Docker Container 
+_Command to Run Docker Container
+_
 docker-compose -f docker-compose.yml up
 
-Command to run docker in termainal 
+_Command to run docker in termainal
+_
 docker run -it -v $PWD:/e2e -w /e2e cypress --entrypoint=cypress cypress/included:6.8.0 run
 
 
