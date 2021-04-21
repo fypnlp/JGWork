@@ -18,12 +18,12 @@ link: https://www.dropbox.com/s/p9s9055mi3lrfzx/BDD%20Test%20%20with%20Mocha%20a
 
 **Docker desktop for Cypress**
 
-_Command to Run Docker Container
-_
+Command to Run Docker Container
+
 docker-compose -f docker-compose.yml up
 
-_Command to run docker in termainal
-_
+Command to run docker in termainal
+
 docker run -it -v $PWD:/e2e -w /e2e cypress --entrypoint=cypress cypress/included:6.8.0 run
 
 
